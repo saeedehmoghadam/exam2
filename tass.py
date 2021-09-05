@@ -1,18 +1,14 @@
 import random
 
-tas_number = random.randint(1,6)
+dice = random.randint(1,6)
 
-print ("tas_number:" , tas_number)
+print("dice :" , dice)
 
+if dice == 6 :
+    dice = random.randint(1,6)
+    print (" you have a prize")
 
-if  tas_number == 6 :
+    print("dice :" , dice)
 
- print("very good")  
-
- tas_number = random.randint(1,6)
-
- print("tas_number:" , tas_number)
-
-else :
-      
- print("check out the game")
+else:
+    print ("end the app!")
