@@ -1,17 +1,15 @@
 import math
-
-n = 0
-
+a = 0
 while  True :
 
-  s = input(" please enter your number : ")
+    num = input("Please type your number for end enter exit : ")
 
-
-  if s == "exit" :
-     break
+    if num == "exit" :
+      break
     
-  else :
-     
-    n = int(s) + n 
+    else :
+        
+         
+         a = int(num) + a 
 
-print (n)    
+print (a)    
